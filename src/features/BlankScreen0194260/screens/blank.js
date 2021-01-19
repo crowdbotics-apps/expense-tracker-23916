@@ -21,6 +21,7 @@ import { SlideMenuIcon } from "../../../navigator/slideMenuIcon"
 class Blank extends React.Component {
   constructor(props) {
     super(props)
+
     this.state = {
       DateTimePicker_35: new Date(""),
       DateTimePicker_40: new Date("05/16/2001"),
@@ -82,8 +83,8 @@ class Blank extends React.Component {
         onPress={() => alert("Pressed!")}
       />
       <Button
-        title="back"
-        color="#242528"
+        title="&lt;&lt;"
+        color="#d18d2e"
         style={styles.Button_61}
         onPress={() => alert("Pressed!")}
       />
@@ -104,7 +105,7 @@ const styles = StyleSheet.create({
   DateTimePicker_35: {
     width: "84%",
     marginTop: 10,
-    paddingLeft: 80,
+    paddingLeft: 85,
     alignSelf: "center",
     borderColor: "#1bc045",
     borderWidth: 2,
@@ -168,7 +169,7 @@ const styles = StyleSheet.create({
   TextInput_56: {
     width: "83%",
     marginLeft: 24,
-    borderColor: "#55e421",
+    borderColor: "#3fc110",
     borderWidth: 2,
     borderLeftWidth: 2,
     borderRightWidth: 2,
@@ -196,17 +197,24 @@ const styles = StyleSheet.create({
     paddingLeft: 1,
     paddingRight: 1,
     alignSelf: "flex-start",
-    borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
-    borderBottomWidth: 2
+    fontSize: 18,
+    fontWeight: "bold",
+    borderColor: "#da9216",
+    borderWidth: 4,
+    borderLeftWidth: 4,
+    borderRightWidth: 4,
+    borderTopWidth: 4,
+    borderBottomWidth: 4,
+    borderRadius: 37
   }
 })
+
 const mapStateToProps = state => {
   return {}
 }
+
 const mapDispatchToProps = () => {
   return {}
 }
+
 export default connect(mapStateToProps, mapDispatchToProps)(Blank)
