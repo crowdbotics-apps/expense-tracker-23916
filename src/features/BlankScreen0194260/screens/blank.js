@@ -109,9 +109,9 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     borderColor: "#1bc045",
     borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
     borderBottomWidth: 2,
     borderRadius: 2
   },
@@ -133,9 +133,9 @@ const styles = StyleSheet.create({
     color: "#100e10",
     borderColor: "#1fdb4e",
     borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
     borderBottomWidth: 2
   },
   Text_42: {
@@ -153,9 +153,9 @@ const styles = StyleSheet.create({
     color: "#151414",
     borderColor: "#32c343",
     borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
     borderBottomWidth: 2
   },
   Text_48: {
@@ -171,9 +171,9 @@ const styles = StyleSheet.create({
     marginLeft: 24,
     borderColor: "#3fc110",
     borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
     borderBottomWidth: 2,
     textAlign: "center"
   },
